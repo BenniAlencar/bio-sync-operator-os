@@ -1,13 +1,27 @@
-# Bio-Sync Operator OS 🫀⚡
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:1a1a2e,100:7000FF&height=200&section=header&text=bio-sync-operator-os&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Real-Time%20Biometric%20Swarm%20Governance%20%26%20120%20FPS%20Resonant%20Kinetic%20Interface&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+
+<br/>
+
+[![Tests](https://img.shields.io/badge/Tests-10%20Passed-00C853?style=for-the-badge&logo=pytest&logoColor=white)](#-quickstart)
+[![Python](https://img.shields.io/badge/Python-3.9+-7000FF?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Dependencies](https://img.shields.io/badge/Dependencies-Zero%20(Stdlib)-00C853?style=for-the-badge)](#-quickstart)
+[![UI Physics](https://img.shields.io/badge/Benni--Canvas-120%20FPS%20ODE-8a2be2?style=for-the-badge)](#-mathematical-foundations)
+[![Privacy](https://img.shields.io/badge/Privacy-Zero--Cloud%20Local-00C853?style=for-the-badge)](#-consent-and-zero-cloud-privacy-guard)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-00C853?style=for-the-badge&logo=apache&logoColor=white)](LICENSE)
+[![Benni OS](https://img.shields.io/badge/Benni%20OS-benni--os.net-0D0D0D?style=for-the-badge)](https://benni-os.net)
+
+<br/>
 
 > **Real-Time Biometric Swarm Governance & 120 FPS Resonant Kinetic Interface powered by Presage SmartSpectra rPPG.**  
 > *Built for the Presage SmartSpectra SDK Challenge on DEV Community.*
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Python: 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
-[![UI: 120 FPS](https://img.shields.io/badge/Benni--Canvas-120_FPS-emerald.svg)](https://benni-os.net)
-[![Privacy: Zero-Cloud](https://img.shields.io/badge/Privacy-Zero--Cloud_Local_Only-success.svg)](#consent-and-zero-cloud-privacy-guard)
-[![Challenge: Presage](https://img.shields.io/badge/DEV_Challenge-%23presagechallenge-purple.svg)](https://dev.to/t/presagechallenge)
+<br/>
+
+<img src="assets/demo.svg" alt="bio-sync-operator-os Real-Time Biometric Swarm Governance Demo" width="100%"/>
+
+</div>
 
 ---
 
@@ -17,7 +31,7 @@
 
 ---
 
-## 1. Executive Summary & The Problem
+## ⚡ Executive Summary & The Problem
 
 As autonomous AI multi-agent swarms (such as **Benni OS**, **Project Benjamin**, and **Nemesis Gateway**) execute hundreds of high-velocity operations per second—ranging from database migrations and GitHub pull request merges to automated financial settlements—the human-in-the-loop operator experiences severe cognitive overload, vigilance fatigue, and acute stress spikes.
 
@@ -30,7 +44,7 @@ Traditional developer dashboards are completely blind to human physiological str
 
 ---
 
-## 2. System Architecture
+## 🏗️ System Architecture
 
 ```mermaid
 flowchart TD
@@ -68,7 +82,7 @@ flowchart TD
 
 ---
 
-## 3. Mathematical Foundations
+## 📊 Mathematical Foundations & Architectural Comparison
 
 ### A. 2nd-Order Harmonic Spring ODE Interface Coupling
 The visual elements of the interface do not use canned CSS keyframes. Instead, motion is numerically integrated at 120 FPS using closed-form Symplectic Euler integration over a damped harmonic oscillator:
@@ -92,9 +106,20 @@ $$\text{OSI} = w_1 \cdot \text{clamp}\left(\frac{\text{HR} - \text{HR}_{base}}{4
 
 *Weights calibrated for human autonomic dynamics:* $w_1 = 0.35$ (Cardiac rate), $w_2 = 0.45$ (Vagal tone / HRV), $w_3 = 0.20$ (Tachypnea / Hyperventilation).
 
+### C. Architectural Comparison
+
+| Capability | Static Operator Dashboards | Cloud Wearable / Bio-APIs | `bio-sync-operator-os` |
+| :--- | :--- | :--- | :--- |
+| **Autonomic Awareness** | None (blind to operator strain) | Delayed cloud sync (seconds–minutes) | **Real-Time Contactless rPPG + Synthetic Fallback** |
+| **Swarm Action Pacing** | Manual approvals only | None | **4-Tier OSI Governor & 30s Circuit-Breaker** |
+| **UI Motion Physics** | Canned CSS transitions | Static charts | **120 FPS 2nd-Order Harmonic Spring ODE** |
+| **Data & Video Privacy** | N/A | Cloud upload & third-party storage | **Zero-Cloud In-Memory RAM Isolation** |
+| **Consent Governance** | Generic cookie banner | Account OAuth | **Mandatory 3-Way Consent + Instant Kill-Switch** |
+| **Runtime Dependencies** | Heavy frontend frameworks | Vendor SDK + Cloud tokens | **Zero External Python Dependencies (Stdlib)** |
+
 ---
 
-## 4. Consent and Zero-Cloud Privacy Guard
+## 🛡️ Consent and Zero-Cloud Privacy Guard
 
 The architecture follows a strict **Zero-Cloud Local Invariant**:
 - **In-Memory Optical Confinement:** Video frames from the camera feed are processed strictly in transient RAM by the SmartSpectra rPPG pipeline. No video frames, facial imagery, or raw camera buffers are ever written to persistent disk or transmitted over the network.
@@ -106,7 +131,7 @@ The architecture follows a strict **Zero-Cloud Local Invariant**:
 
 ---
 
-## 5. Quickstart
+## 🚀 Quickstart
 
 ### Prerequisites
 - Python 3.9+
@@ -134,6 +159,7 @@ bio-sync test
 ### Running Unit Tests
 ```bash
 pytest tests/ -v
+# 10 passed (test_cli.py, test_kinetic_resonator.py, test_privacy_guard.py, test_smartspectra_adapter.py, test_swarm_governor.py)
 ```
 
 ### Launching the 120 FPS Web Experience
@@ -145,10 +171,12 @@ Navigate to `http://localhost:8080` to interact with the full cyber-luminescent 
 
 ---
 
-## 6. Project Structure
+## 🗂️ Project Structure
 
-```
+```text
 bio-sync-operator-os/
+├── assets/
+│   └── demo.svg                   # Branded terminal telemetry animation
 ├── LICENSE                        # Apache 2.0 License
 ├── pyproject.toml                 # Packaging & pytest configuration
 ├── README.md                      # Architecture & Developer Guide
@@ -173,7 +201,7 @@ bio-sync-operator-os/
 
 ---
 
-## 7. Presage SmartSpectra SDK Challenge Details
+## 🏆 Presage SmartSpectra SDK Challenge Details
 
 - **Challenge:** [Presage SmartSpectra SDK Challenge on DEV Community](https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370?bb=264850)
 - **SDK:** [Presage SmartSpectra Contactless Human Sensing SDK](https://github.com/Presage-Security/SmartSpectra)
@@ -182,3 +210,56 @@ bio-sync-operator-os/
   - 🛡️ *Best Thoughtful Real-World Use*
   - ✨ *Most Creative or Delightful Use*
 - **Author:** Benni Alencar ([@bennialencar](https://dev.to/bennialencar)) • [Benni OS Ecosystem](https://benni-os.net)
+
+---
+
+## 🌐 The Benni OS Open-Source Ecosystem
+
+`bio-sync-operator-os` is part of the coordinated **Benni Master OS v9.4** open-source infrastructure suite:
+
+| Repository | Focus & Architecture | Stars |
+| :--- | :--- | :---: |
+| **[`conductor-sdd`](https://github.com/Benni-OS/conductor-sdd)** | Zero-Dependency Spec-Driven Development, Static AST Drift Detector & MCP Guardrail | [![GitHub Stars](https://img.shields.io/github/stars/Benni-OS/conductor-sdd?style=flat)](https://github.com/Benni-OS/conductor-sdd) |
+| **[`benni-inference-engine`](https://github.com/Benni-OS/benni-inference-engine)** | High-Throughput Sovereign Local Inference for 8GB–16GB Consumer GPUs | [![GitHub Stars](https://img.shields.io/github/stars/Benni-OS/benni-inference-engine?style=flat)](https://github.com/Benni-OS/benni-inference-engine) |
+| **[`agent-eval-harness`](https://github.com/BenniAlencar/agent-eval-harness)** | Deterministic Zero-Cloud Agent Evaluation, Red-Teaming & Benchmark Harness | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-eval-harness?style=flat)](https://github.com/BenniAlencar/agent-eval-harness) |
+| **[`agent-code-sandbox`](https://github.com/BenniAlencar/agent-code-sandbox)** | Micro-Second Zero-Dependency Code Sandbox & Execution Shield for AI Agents | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-code-sandbox?style=flat)](https://github.com/BenniAlencar/agent-code-sandbox) |
+| **[`agent-deep-research`](https://github.com/BenniAlencar/agent-deep-research)** | Autonomous Multi-Source Deep Research & Evidence Synthesis Engine | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-deep-research?style=flat)](https://github.com/BenniAlencar/agent-deep-research) |
+| **[`agent-browser-mesh`](https://github.com/BenniAlencar/agent-browser-mesh)** | Token-Saving Resilient Headless Browser Automation & A11y DOM Compiler | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-browser-mesh?style=flat)](https://github.com/BenniAlencar/agent-browser-mesh) |
+| **[`agent-intent-compiler`](https://github.com/BenniAlencar/agent-intent-compiler)** | Deterministic Intent Compiler & Typed DAG Execution Planner for AI Agents | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-intent-compiler?style=flat)](https://github.com/BenniAlencar/agent-intent-compiler) |
+| **[`agent-token-optimizer`](https://github.com/BenniAlencar/agent-token-optimizer)** | Sub-Millisecond Context Compression & Semantic Deduplication Engine | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-token-optimizer?style=flat)](https://github.com/BenniAlencar/agent-token-optimizer) |
+| **[`bio-sync-operator-os`](https://github.com/BenniAlencar/bio-sync-operator-os)** | Real-Time Biometric Swarm Governance & 120 FPS Resonant Kinetic Interface | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/bio-sync-operator-os?style=flat)](https://github.com/BenniAlencar/bio-sync-operator-os) |
+| **[`agent-cyber-sentinel`](https://github.com/BenniAlencar/agent-cyber-sentinel)** | Zero-Trust Runtime Security, Prompt Injection Firewall & Secrets Redaction | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-cyber-sentinel?style=flat)](https://github.com/BenniAlencar/agent-cyber-sentinel) |
+| **[`agent-run-ledger`](https://github.com/BenniAlencar/agent-run-ledger)** | Deterministic Multi-Step Task Execution Ledger & Anti-Looping Engine | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-run-ledger?style=flat)](https://github.com/BenniAlencar/agent-run-ledger) |
+| **[`reality-lock`](https://github.com/BenniAlencar/reality-lock)** | Cryptographic State Verification & Invariant Proof Engine for Agents | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/reality-lock?style=flat)](https://github.com/BenniAlencar/reality-lock) |
+| **[`agent-memory-mesh`](https://github.com/BenniAlencar/agent-memory-mesh)** | Hybrid Vector + BM25 Hierarchical Session Memory & Continuity Engine | [![GitHub Stars](https://img.shields.io/github/stars/BenniAlencar/agent-memory-mesh?style=flat)](https://github.com/BenniAlencar/agent-memory-mesh) |
+| **[`benni-operator-gateway`](https://github.com/Benni-OS/benni-operator-gateway)** | Human-in-the-Loop Approval & Policy Enforcement Gateway | [![GitHub Stars](https://img.shields.io/github/stars/Benni-OS/benni-operator-gateway?style=flat)](https://github.com/Benni-OS/benni-operator-gateway) |
+| **[`mcp-forge`](https://github.com/Benni-OS/mcp-forge)** | Rapid Model Context Protocol (MCP) Server Scaffolding & Dynamic Tooling | [![GitHub Stars](https://img.shields.io/github/stars/Benni-OS/mcp-forge?style=flat)](https://github.com/Benni-OS/mcp-forge) |
+| **[`benni-nexus`](https://github.com/Benni-OS/benni-nexus)** | Autonomous Multi-Agent Intent Routing & Swarm Coordination Hub | [![GitHub Stars](https://img.shields.io/github/stars/Benni-OS/benni-nexus?style=flat)](https://github.com/Benni-OS/benni-nexus) |
+| **[`community-autopilot`](https://github.com/Benni-OS/community-autopilot)** | Autonomous GitHub Community Triaging & PR Feedback Agent | [![GitHub Stars](https://img.shields.io/github/stars/Benni-OS/community-autopilot?style=flat)](https://github.com/Benni-OS/community-autopilot) |
+
+---
+
+## 🏛️ Commercial & Sovereign Architecture
+
+Need neuro-ergonomic human-in-the-loop governance, autonomous multi-agent swarm orchestration, or deep technical blueprints?
+
+- **Official Website:** [https://benni-os.net](https://benni-os.net)
+- **Operator Mode Playbook:** [https://benni-os.net/blog/academy.html](https://benni-os.net/blog/academy.html)
+- **GitHub Organization:** [https://github.com/Benni-OS](https://github.com/Benni-OS)
+- **Maintainer:** [Benni Alencar](https://github.com/BenniAlencar)
+
+---
+
+## 📄 License & Provenance
+
+- **License:** [Apache License 2.0](LICENSE)
+- **Author:** Benni Alencar (`bennialencar@benni-os.net`)
+- **Architecture:** Benni Master OS v9.4 Neuro-Ergonomic Swarm Governance Standard
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000FF,50:1a1a2e,100:0D0D0D&height=120&section=footer" width="100%"/>
+
+**bio-sync-operator-os** — *Real-Time Biometric Swarm Governance & 120 FPS Resonant Kinetic Interface* • [benni-os.net](https://benni-os.net) • `Apache-2.0 License`
+
+</div>
