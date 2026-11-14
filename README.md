@@ -19,7 +19,7 @@
 
 <br/>
 
-<img src="assets/demo.svg" alt="bio-sync-operator-os Real-Time Biometric Swarm Governance Demo" width="100%"/>
+<img src="assets/demo.gif" alt="bio-sync-operator-os Real-Time Biometric Swarm Governance Demo" width="100%"/>
 
 </div>
 
