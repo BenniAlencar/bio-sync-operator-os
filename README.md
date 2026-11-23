@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:1a1a2e,100:7000FF&height=200&section=header&text=bio-sync-operator-os&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Real-Time%20Biometric%20Swarm%20Governance%20%26%20120%20FPS%20Resonant%20Kinetic%20Interface&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+<img src="assets/banner_header.png" width="100%"/>
 
 <br/>
 
@@ -258,7 +258,7 @@ Need neuro-ergonomic human-in-the-loop governance, autonomous multi-agent swarm 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000FF,50:1a1a2e,100:0D0D0D&height=120&section=footer" width="100%"/>
+<img src="assets/banner_footer.png" width="100%"/>
 
 **bio-sync-operator-os** — *Real-Time Biometric Swarm Governance & 120 FPS Resonant Kinetic Interface* • [benni-os.net](https://benni-os.net) • `Apache-2.0 License`
 
